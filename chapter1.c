@@ -4,16 +4,7 @@
 
 
 
-#define TODO()                                  \
-
-  do{                                                           \
-
-    printf ("\nAdd your code here: file \"%s\", line %d\n",     \
-
-            __FILE__, __LINE__);                                \
-
-  }while(0)
-
+#define TODO()  do{ printf ("\nAdd your code here: file \"%s\", line %d\n",    __FILE__, __LINE__);   } while(0)
 
 
 ///////////////////////////////////////////////
